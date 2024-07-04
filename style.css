@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+section {
+  padding: 2em;
+  margin: 2em 0;
+}
+#about,
+#services,
+#contact {
+  background: #f4f4f4;
+  padding: 2em;
+  margin: 2em 0;
+}
+.service {
+  margin: 1em 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-top: 1em;
+}
+form input,
+form textarea {
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+form button {
+  margin-top: 1em;
+  padding: 0.5em;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background: #555;
+}
+#formStatus {
+  margin-top: 1em;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #333;
+  color: #fff;
+}
